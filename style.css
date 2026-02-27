@@ -834,6 +834,24 @@ footer::before{
     .dropdown.active .dropdown-menu{
         display: block;
     }
+    .hero-flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .hero-image img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
     .footer-container{
         grid-template-columns: 1fr;
         text-align: center;

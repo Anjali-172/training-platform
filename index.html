@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
         <title>Training Platform</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/online-learning.png">
     </head>
     <body>
         <!--TOP NAVBAR-->
@@ -44,7 +45,7 @@
                 </ul>
                 <!--RIGHT MENU-->
                 <div class="nav-auth">
-                    <a="#" class="login">Login</a>
+                    <a href="login.html" class="login">Login</a>
                     <button class="register-btn">Register</button>
                 </div>
                 <!--HAMBURGER-->
@@ -66,7 +67,7 @@
                 <div class="courses-grid">
                     <!--COURSE CARD 1-->
                     <div class="course-card">
-                        <img src="img/full-stack-development.jpg" height="169" >
+                        <img src="img/full-stack-development.jpg" height="235" >
                         <h3>Full Stack Development</h3>
                         <p>Master frontend & backend with real-world projects.</p>
                         <a href="courses/fullstack.html" class="course-btn">Learn More</a>
@@ -80,7 +81,7 @@
                     </div>
                     <!--COURSE CARD 3-->
                     <div class="course-card">
-                        <img src="img/python-programming.jpg" height="170" >
+                        <img src="img/python-programming.jpg" height="236" >
                         <h3>Python Programming</h3>
                         <p>From basics to advanced Python with live practice.</p>
                         <a href="courses/python.html" class="course-btn">Learn More</a>
@@ -101,7 +102,7 @@
                     </div>
                     <!--COURSE CARD 6-->
                     <div class="course-card">
-                        <img src="img/cybersecurity.jpg" height="167">
+                        <img src="img/cybersecurity.jpg" height="169">
                         <h3>Cyber Security</h3>
                         <p>Ethical hacking, penetration testing & security tools.</p>
                         <a href="courses/cybersecurity.html" class="course-btn">Learn More</a>
@@ -115,19 +116,43 @@
                     </div>
                     <!--COURSE CARD 8-->
                     <div class="course-card">
-                        <img src="img/android-development.jpg" height="168">
+                        <img src="img/android-development.jpg" height="234">
                         <h3>Android Development</h3>
                         <p>Build mobile apps using Java & Kotlin.</p>
                         <a href="courses/android.html" class="course-btn">Learn More</a>
                     </div>
                     <!--COURSE CARD 9-->
                     <div class="course-card">
-                        <img src="img/digital-marketing.jpg" height="168">
+                        <img src="img/digital-marketing.jpg" height="234">
                         <h3>Digital Marketing</h3>
                         <p>SEO, social media marketing & content strategies.</p>
                         <a href="courses/digitalmarketing.html" class="course-btn">Learn More</a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- STUDENT REVIEWS -->
+        <section class="course-reviews">
+            <div class="course-container">
+                <h2>What Our Students Say</h2>
+                <div class="review">
+                    ⭐⭐⭐⭐⭐
+                    <p>"This course helped me get my first Android developer job!"</p>
+                    <strong>- Priya S.</strong>
+                </div>
+                <div class="review">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Very practical and easy to understand."</p>
+                    <strong>- Amit K.</strong>
+                </div>
+            </div>
+        </section>
+        <!-- FINAL CTA -->
+        <section class="final-cta">
+            <div class="course-container">
+                <h2>Ready to Start Your Android Journey?</h2>
+                <p>Limited seats available. Enroll now and start building real apps!</p><br>
+                <button class="enroll-btn" onclick="openModal()">Enroll Now <span class="arrow">→</span></button>
             </div>
         </section>
         <footer>
@@ -147,11 +172,11 @@
                 <div class="footer-services">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a="#">Full Stack Development</a></li>
-                        <li><a="#">Digital Marketing</a></li>
+                        <li><a href="courses/fullstack.html">Full Stack Development</a></li>
+                        <li><a href="courses/digitalmarketing.html">Digital Marketing</a></li>
                         <li><a="#">AI & ML</a></li>
-                        <li><a="#">Cyber Security</a></li>
-                        <li><a="#">UI/UX Design</a></li>
+                        <li><a href="courses/cybersecurity.html">Cyber Security</a></li>
+                        <li><a href="courses/uiux.html">UI/UX Design</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">

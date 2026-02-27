@@ -20,3 +20,13 @@ function toggleDropdown(element) {
     menu.style.display =
         menu.style.display === "flex" ? "none" : "flex";
 }
+window.addEventListener("load", function() {
+    if (window.location.hash) {
+        const element = document.querySelector(window.location.hash);
+        if (element) {
+            setTimeout(() => {
+                element.scrollIntoView({ behavior: "smooth" });
+            }, 100);
+        }
+    }
+});
